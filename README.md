@@ -1,5 +1,6 @@
 # Purchase Ebook
 > An online purchasing application with Stripe. You can look more on Stripe [here](https://stripe.com/)
+Direct link to the app : https://arcane-dawn-35722.herokuapp.com/
 
 ## Table of contents
 - [Purchase Ebook](#Purchase-Ebook)
