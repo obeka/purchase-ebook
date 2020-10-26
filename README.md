@@ -1,32 +1,67 @@
-# purchase-ebook
-Direct Link : https://arcane-dawn-35722.herokuapp.com/
+# Purchase Ebook
+> An online purchasing application with Stripe. You can look more on Stripe [here](https://stripe.com/)
 
-For credit card number enter one of these :
+## Table of contents
+- [Purchase Ebook](#Purchase-Ebook)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Technologies](#technologies)
+  - [How to use](#how-to-use)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+  - [Inspiration](#inspiration)
+  - [Contact](#contact)
 
-4242424242424242  	Visa	
+## General info
+In this application, we will build a Node.js/Express app using the Stripe API to sell an ebook. For testing the payment, you can use the following card numbers. Any valid date and random CCV number(3 digits) can be used to proceed.
 
-4000056655665556	  Visa (debit)	
+4242424242424242 Visa
 
-5555555555554444	  Mastercard	
+4000056655665556 Visa (debit)
 
-2223003122003222    Mastercard 
+5555555555554444 Mastercard
 
-5200828282828210  	Mastercard (debit)	
+5200828282828210 Mastercard (debit)
 
-5105105105105100  	Mastercard (prepaid)	
+378282246310005 American Express
 
-378282246310005     American Express	
+36227206271667 Diners Club
 
-371449635398431   	American Express	
+## Technologies 
+* Express.js - version 4.17.1
+* Express-Handlebars - version 4.0.4
+* stripe - version 8.55.0
 
-6011111111111117  	Discover	
+## How to use
+To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. After npm start, you go to http://localhost:5000 in your browser.
+```bash
+# Clone this repository
+$ git clone https://github.com/obeka/purchase-ebook.git
 
-6011000990139424  	Discover	
+# Go into the purchase-ebook folder
+$ cd purchase-ebook 
 
-3056930009020004  	Diners Club	
+# Install dependencies
+$ npm install
 
-36227206271667	    Diners Club 
+# Run the app
+$ npm start
+```
 
-3566002020360505	  JCB	Any 
+## Features
 
-6200000000000005  	UnionPay	
+* Go to the payment page
+* Enter card details
+* Save your information for the next payment
+
+## Screenshots
+
+![Example screenshot](https://i.postimg.cc/yYTLKc12/Untitled.png)
+![Example screenshot](https://i.postimg.cc/Tw8Vg32r/2.png)
+![Example screenshot](https://i.postimg.cc/L4DP6TPk/3.png)
+
+## Inspiration
+Based on a YouTube totorial. [Link](https://www.youtube.com/watch?v=QT3_zT97_1g&list=PLillGF-RfqbZ2ybcoD2OaabW2P7Ws8CWu&index=11)
+
+## Contact
+:mailbox_with_mail: You can send me email : omerbkk06@gmail.com :mailbox_with_mail:
